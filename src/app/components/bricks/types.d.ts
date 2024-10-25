@@ -1,0 +1,47 @@
+export type HSLColor = {
+  h: number;
+  s: number;
+  l: number;
+};
+
+type color =
+  | "white"
+  | "lightBluishGray"
+  | "lighthGray"
+  | "darkBluishGray"
+  | "darkGray"
+  | "black"
+  | "darkRed"
+  | "red"
+  | "coral"
+  | "darkBrown"
+  | "reddishBrown"
+  | "brown"
+  | "darkTan"
+  | "tan"
+  | "mediumNouget"
+  | "lightNouget"
+  | "darkOrange"
+  | "orange"
+  | "brightLightOrange"
+  | "yellow"
+  | "brightLightYellow"
+  | "lime"
+  | "oliveGreen"
+  | "darkGreen"
+  | "green"
+  | "brightGreen"
+  | "sandGreen"
+  | "darkTurqoise"
+  | "lightAqua"
+  | "darkBlue"
+  | "blue"
+  | "darkAzure"
+  | "mediumAzure"
+  | "mediumBlue"
+  | "sandBlue"
+  | "darkPurple"
+  | "mediumLavender"
+  | "magenta"
+  | "darkPink"
+  | "brightPink";
